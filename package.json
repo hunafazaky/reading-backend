@@ -1,0 +1,22 @@
+{
+  "name": "reading-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.js",
+  "author": "hunafazaky",
+  "license": "MIT",
+  "dependencies": {
+    "bayes": "^1.0.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "js-recommender": "^1.0.5",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "eslint": "^10.0.3"
+  },
+  "repository": "https://github.com/hunafazaky/reading-backend.git"
+}
