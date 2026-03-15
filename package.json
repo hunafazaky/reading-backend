@@ -1,10 +1,12 @@
 {
   "name": "reading-backend",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
-  "main": "./src/index.js",
+  "main": "index.js",
   "author": "hunafazaky",
   "license": "MIT",
+  "packageManager": "pnpm@10.29.3",
   "dependencies": {
     "bayes": "^1.0.0",
     "bcrypt": "^6.0.0",
