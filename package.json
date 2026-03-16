@@ -2,23 +2,34 @@
   "name": "reading-backend",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
+  "description": "",
   "main": "index.js",
-  "author": "hunafazaky",
-  "license": "MIT",
-  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.3",
   "dependencies": {
     "bayes": "^1.0.0",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "helmet": "^8.1.0",
     "js-recommender": "^1.0.5",
-    "mongoose": "^9.3.0"
+    "mongoose": "^9.3.0",
+    "morgan": "^1.10.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "eslint": "^10.0.3"
-  },
-  "repository": "https://github.com/hunafazaky/reading-backend.git"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0"
+  }
 }
